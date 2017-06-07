@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+.timestamp_bg {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    color: #fff;
+    font: 12px/14px 'Inconsolata', monospace;
+    background-color:#000;
+}

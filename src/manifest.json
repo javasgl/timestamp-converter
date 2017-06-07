@@ -1,0 +1,22 @@
+{
+   "author": "javasgl",
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "ts-conv.css" ],
+      "js": [ "ts-conv.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Converter Timestamp to yyyy-mm-dd hh:mm:ss",
+   "icons": {
+      "128": "icons/icon_128x128.png",
+      "16": "icons/icon_16x16.png",
+      "32": "icons/icon_32x32.png",
+      "48": "icons/icon_48x48.png",
+      "512": "icons/icon_512x512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq8+411WZf6UT5aThD/sA6pP/BFEIMa7krvpPuQq2rl61BDibb6wK+nnbS2qNsJO9Uh62UszDaAfb82cxj+uCD4NM/3uFUK4YKeuMZkpJst+IXygfF/wNmtI0R0c6AoBmHVsGYz7EyQjTWx512PkVPrSj4pkmtOLg3O46lu0KGoXH7qVNnZ9pdq+AvnI9pI/NQnTOQ72sYcuDWMULG/CrGOgTbVmqZb6Pqak2f1HdWnxAuM9gJatXKPfBF5o1ZkYpoFLUb8jir8KAx0dSyXTexs4qGJiL7G78aUf5fF6qktfGOItPrO9w9XceAAZjr8InzMHBP2lao57r8KsVaD7ebwIDAQAB",
+   "manifest_version": 2,
+   "name": "Timestamp Converter",
+   "version": "1.3"
+}
